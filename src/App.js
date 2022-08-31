@@ -26,13 +26,13 @@ function App() {
       <Router>
         {/* Daftar rute (<Route />) yang kita gunakan taruh di <Switch /> */}
         <Switch>
-          <Route path="/media-player/playing">
+          <Route path="/playing">
             <PlayingPage />
           </Route>
-          <Route path="/media-player/playlist">
+          <Route path="/playlist">
             <PlaylistPage />
           </Route>
-          <Route path="/media-player/">
+          <Route path="/">
             <HomePage />
           </Route>
         </Switch>
